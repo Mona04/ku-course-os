@@ -10,7 +10,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 
-int main4(int argc, char* argv[]){
+int main(int argc, char* argv[]){
     pid_t pid = fork();
 
     switch (pid)
