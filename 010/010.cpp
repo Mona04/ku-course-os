@@ -18,7 +18,7 @@ const int A_DAY = 1;
 // Allocated in data segment.
 static int the_answer = 0;
 
-int main1(int argc, char* argv[]){
+int main(int argc, char* argv[]){
     // Allocated in stack segment.
     int arthur = 0;
 
