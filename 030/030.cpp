@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int main3(int argc, char* argv[]){
+int main(int argc, char* argv[]){
     printf("%s executing `ls -l`.\n", "Before");
 
     // HINT: The /bin/ls -l should be executed.
