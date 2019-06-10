@@ -5,7 +5,7 @@
  * - How to preserve consistency.
  *
  */
-/*
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <unistd.h>
@@ -87,4 +87,3 @@ int stick_this_thread_to_core(int core_id) {
    return pthread_setaffinity_np(current_thread, sizeof(cpu_set_t), &cpuset);
 }
 
-*/
