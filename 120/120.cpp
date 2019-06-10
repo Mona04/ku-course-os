@@ -5,7 +5,7 @@
  * - How to wait detached thread using mutex.
  *
  */
-/*
+
 #include <stdio.h>
 #include <stdatomic.h>
 #include <unistd.h>
@@ -111,4 +111,4 @@ void* boss(void* arg)
     go_home("like a boss");
     pthread_exit(NULL);
 }
-*/
+
