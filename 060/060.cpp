@@ -30,7 +30,7 @@ void* ninja(void* arg){
 // Knuc...kles.
 //
 
-int main6(int argc, char* argv[]){
+int main(int argc, char* argv[]){
     pthread_t tid;
     char* from = "";
 
