@@ -22,7 +22,7 @@
 // Duh! Ra! Goon!
 //
 
-int main5(int argc, char* argv[]){
+int main(int argc, char* argv[]){
     pid_t pid;
     int status;
 
