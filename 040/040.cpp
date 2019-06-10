@@ -34,6 +34,7 @@ int main4(int argc, char* argv[]){
 
             // Notice that there is no break here.
             // Why?
+            // because there is no mean below execl as execl make this process like a new process
 
         case -1:
             printf("WTF???");
